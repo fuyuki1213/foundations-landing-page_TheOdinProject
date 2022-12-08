@@ -2,11 +2,10 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -31,4 +30,51 @@ header {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.main-block {
+    display: flex;
+    padding: 80px 25%;
+    background-color: #1F2937;
+    gap: 2%;
+    
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 49%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.button-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 100px;
+    text-align: center;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.image-placeholder {
+ width: 49%;
+ background-color: #696969;
+ color: #E5E7EB;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
