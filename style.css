@@ -89,6 +89,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 45px;
+    flex-wrap: wrap;
 
 }
 
