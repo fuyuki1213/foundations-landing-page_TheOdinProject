@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -24,7 +24,7 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 15px 25%;
+    padding: 15px 20%;
 }
 
 .header-logo {
@@ -34,9 +34,9 @@ header {
 
 .main-block {
     display: flex;
-    padding: 80px 25%;
+    padding: 80px 20%;
     background-color: #1F2937;
-    gap: 2%;
+    gap: 5%;
     
 }
 
@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 49%;
+    max-width: 50%;
 }
 
 h1 {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .image-placeholder {
-    width: 49%;
+    width: 50%;
     background-color: #696969;
     color: #E5E7EB;
     display: flex;
@@ -82,15 +82,15 @@ h1 {
 .square {
     border: 3px solid;
     border-color: #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 15px;
 }
 
 .info-list {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 45px;
 
 }
 
@@ -101,12 +101,13 @@ h1 {
 }
 
 .info-block {
-    padding: 0 25%;
+    padding: 40px 20%;
     
 }
 
 .square-text {
-    max-width: 150px;
+    max-width: 200px;
+    font-size: 18px;
 }
 
 .bold {
@@ -120,5 +121,25 @@ h1 {
 .information-header {
     font-size: 36px;
     color: #1F2937;
-    padding: 40px 0;
+    padding-bottom: 40px;
+}
+
+.quote-block {
+    padding: 40px 25%;
+    background-color: #E5E7EB;
+}
+
+.right {
+    text-align: right;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: light;
+}
+
+.author {
+    font-size: 18px;
 }
