@@ -49,7 +49,6 @@ header {
 
 h1 {
     font-size: 48px;
-    /**font-weight: 700;**/
     color: #F9FAF8;
 }
 
@@ -60,7 +59,6 @@ h1 {
     width: 100px;
     text-align: center;
     color: #F9FAF8;
-    /**font-weight: 700;**/
     margin-top: 5px;
 
 }
@@ -142,4 +140,46 @@ blockquote {
 
 .author {
     font-size: 18px;
+    color: #1F2937;
+}
+
+.action-banner {
+    display: flex;
+    margin: 40px 20%;
+    background-color: #3882F6;
+    padding: 40px 5%;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.banner-button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 100px;
+    text-align: center;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    font-size: 18px;
+}
+
+.banner-left{
+flex-grow: 2;
+}
+
+.banner-right {
+flex-grow: 1;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.banner-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.banner-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
