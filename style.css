@@ -49,7 +49,7 @@ header {
 
 h1 {
     font-size: 48px;
-    font-weight: 700;
+    /**font-weight: 700;**/
     color: #F9FAF8;
 }
 
@@ -60,21 +60,65 @@ h1 {
     width: 100px;
     text-align: center;
     color: #F9FAF8;
-    font-weight: 700;
+    /**font-weight: 700;**/
     margin-top: 5px;
 
 }
 
 .image-placeholder {
- width: 49%;
- background-color: #696969;
- color: #E5E7EB;
- display: flex;
- justify-content: center;
- align-items: center;
+    width: 49%;
+    background-color: #696969;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.square {
+    border: 3px solid;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.info-list {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-block {
+    padding: 0 25%;
+    
+}
+
+.square-text {
+    max-width: 150px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 40px 0;
 }
